@@ -17,7 +17,7 @@ config,
       colors = import ./colors.nix;
       window = import ./window.nix;
       fonts = import ./font.nix;
-      bars = import ./bar.nix;
+      bars = [ ];
     };
   };
 }
