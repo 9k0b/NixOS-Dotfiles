@@ -12,7 +12,7 @@
       enable = true;
       binds = {
       };
-      generateComplitions = true;
+      generateCompletions = true;
       shellAliases = {
         ".." = "cd ..";
         "..." = "cd ../..";
