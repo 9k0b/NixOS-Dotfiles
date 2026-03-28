@@ -15,7 +15,7 @@
       settings = {
         main = {
           term = "kitty";
-          shell = "fish";
+          #shell = "fish";
           font = "JetBrainsMono Nerd Font:size=9.5";
         };
         security = {
