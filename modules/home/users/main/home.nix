@@ -35,6 +35,7 @@
 
   # password manager
   keepassxc.enable = true;
+  sshAgent.enable = true;
 
 
   home.packages = [
