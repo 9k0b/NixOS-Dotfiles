@@ -15,7 +15,7 @@
       settings = {
         main = {
           term = "kitty";
-          shell = "pkgs.fish";
+          shell = "/etc/profiles/per-user/main/bin/fish";
           font = "JetBrainsMono Nerd Font:size=9.0";
         };
         security = {
