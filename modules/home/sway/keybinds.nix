@@ -1,7 +1,8 @@
-{
+
   let
-    mod = "Mod4"
-  in lib.mkOptionDefault {
+    mod = config.wayland.windowManager.sway.config.modifier;
+  in lib.mkOptionDefault
+  {
     "${mod}+Return" = "exec foot";
     "${mod}+d" = "exec wofi --show drun";
     "${mod}+f" = "exec thunar";
@@ -47,5 +48,4 @@
     "${mod}+Shift+8" = "move to workspace number 8";
     "${mod}+Shift+9" = "move to workspace number 9";
     "${mod}+Shift+0" = "move to workspace number 10";
-  };
-}
+};
