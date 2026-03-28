@@ -1,6 +1,6 @@
 {
   "*" = {
-    "xkb_layout" = "de";
-    "xkb_options" = "caps:swapescape";
+    xkb_layout = "de";
+    xkb_options = "caps:swapescape";
   };
 }
