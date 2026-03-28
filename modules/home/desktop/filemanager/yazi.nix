@@ -8,7 +8,7 @@
   };
 
   config = lib.mkIf config.yazi.enable {
-    programs.yazi {
+    programs.yazi = {
       enable = true;
       enableFishIntegration = true;
       plugins = {
