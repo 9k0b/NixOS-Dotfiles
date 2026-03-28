@@ -6,6 +6,7 @@
 {
   imports = [
     ./misc/default.nix
+    ./desktop/default.nix
     ./sway/default.nix
     ./terminal/default.nix
   ];
