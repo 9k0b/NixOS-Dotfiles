@@ -24,7 +24,7 @@
           hide-when-typing = true;
         };
 
-        colors-dark = {
+        "colors-dark" = {
           foreground = "c0caf5";
           background = "1a1b26";
 
