@@ -33,6 +33,8 @@
   # tmux
   tmux.enable = true;
 
+  # password manager
+  keepassxc.enable = true;
 
 
   home.packages = [
