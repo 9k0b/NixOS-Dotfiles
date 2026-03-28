@@ -15,6 +15,10 @@
   # window manager
   swaywm.enable = true;
 
+  # filemanagers
+  yazi.enable = true;
+  thunar.enable = true;
+
   # media
   spotify.enable = true;
 
@@ -28,6 +32,8 @@
   fishShell.enable = true;
   # tmux
   tmux.enable = true;
+
+
 
   home.packages = [
     pkgs.librewolf
