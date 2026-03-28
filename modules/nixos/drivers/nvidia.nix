@@ -8,8 +8,8 @@
   };
 
   config = lib.mkIf config.nvidia.enable {
+    programs.sway.package = pkgs.sway.override { extraOptions = [ "--unsupported-gpu" ]; };
     hardware.nvidia = {
-      programs.sway.package = pkgs.sway.override { extraOptions = [ "--unsupported-gpu" ]; };
       package = config.boot.kernelPackages.nvidiaPackages.latest;
       open = true;
       modesetting.enable = true;
