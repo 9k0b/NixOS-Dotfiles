@@ -24,7 +24,7 @@
     "${mod}+Shift+k" = "move up";
     "${mod}+Shift+l" = "move right";
 
-    "${mod}+l" = "exec hyprlock";
+    "Mod1+l" = "exec hyprlock";
     "${mod}+Escape" = "exec ../../../scripts/wofi/power_menu.sh";
 
     "${mod}+1" = "workspace number 1";
