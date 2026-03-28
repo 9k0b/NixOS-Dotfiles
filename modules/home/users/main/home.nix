@@ -26,6 +26,8 @@ inputs,
   ];
 
   programs.git.enable = true;
+  programs.git.userName = "9k0b";
+  programs.git.userEmail = "jakob.fuenderich@gmail.com";
   programs.neovim.enable = true;
 
 
