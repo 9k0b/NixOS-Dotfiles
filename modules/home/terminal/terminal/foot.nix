@@ -46,7 +46,7 @@
           bright4 = "7aa2f7"; # bright blue
           bright5 = "bb9af7"; # bright magenta
           bright6 = "7dcfff"; # bright cyan
-          bright7 = "c0caf5"; # bright white;
+          bright7 = "c0caf5"; # bright white
 
           ## Optional dim colors
           dim0 = "ff9e64";
