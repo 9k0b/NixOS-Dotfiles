@@ -21,6 +21,9 @@
   # terminal
   foot.enable = true;
 
+  # fetch
+  onefetch.enable = true;
+  fastfetch.enable = true;
   # shell
   fishShell.enable = true;
 
