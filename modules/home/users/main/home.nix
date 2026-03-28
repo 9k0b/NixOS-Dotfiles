@@ -25,7 +25,7 @@ inputs,
   spotify.enable = true;
 
   # terminal
-  foot-term.enable = true;
+  foot.enable = true;
 
   home.packages = [
     pkgs.librewolf
