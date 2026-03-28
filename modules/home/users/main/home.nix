@@ -9,7 +9,7 @@ inputs,
 {
 
   imports = [
-    ../../sway/default.nix
+    ../../default.nix
   ];
 
   home = {
@@ -17,6 +17,12 @@ inputs,
     homeDirectory = lib.mkDefault "home/main";
     stateVersion = "25.11";
   };
+
+  # window manager
+  swaywm.enable = false;
+
+  # media
+  spotify.enable = true;
 
   home.packages = [
     pkgs.librewolf
