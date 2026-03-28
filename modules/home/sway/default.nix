@@ -14,6 +14,10 @@ config,
       keybindings = import ./keybinds.nix;
       output = import ./output.nix;
       startup = import ./auto-start.nix;
+      colors = import ./colors.nix;
+      window = import ./window.nix;
+      fonts = import ./font.nix;
+      bars = import ./bar.nix;
     };
   };
 }
