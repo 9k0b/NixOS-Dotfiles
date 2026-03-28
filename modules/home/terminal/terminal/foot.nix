@@ -15,8 +15,8 @@
       settings = {
         main = {
           term = "kitty";
-          #shell = "fish";
-          font = "JetBrainsMono Nerd Font:size=9.5";
+          shell = "pkgs.fish";
+          font = "JetBrainsMono Nerd Font:size=9.0";
         };
         security = {
           osc52 = "enabled";

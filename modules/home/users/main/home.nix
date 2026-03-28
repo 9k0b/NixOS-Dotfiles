@@ -21,6 +21,9 @@
   # terminal
   foot.enable = true;
 
+  # shell
+  fishShell.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
