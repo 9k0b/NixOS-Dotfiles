@@ -24,6 +24,9 @@ inputs,
   # media
   spotify.enable = true;
 
+  # terminal
+  foot-term.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
