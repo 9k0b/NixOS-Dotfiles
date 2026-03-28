@@ -15,7 +15,7 @@
         device = {
           name = "spotify_player";
           device_type = "computer";
-          login_redirect_uri = "http://127.0.0.1:8989/login"
+          login_redirect_uri = "http://127.0.0.1:8989/login";
         };
       };
       themes = [
