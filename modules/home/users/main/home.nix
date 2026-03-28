@@ -19,7 +19,7 @@ inputs,
   };
 
   # window manager
-  swaywm.enable = false;
+  swaywm.enable = true;
 
   # media
   spotify.enable = true;
@@ -35,6 +35,4 @@ inputs,
   programs.git.userName = "9k0b";
   programs.git.userEmail = "jakob.fuenderich@gmail.com";
   programs.neovim.enable = true;
-
-
 }
