@@ -3,11 +3,11 @@
 {
 
   options = {
-    foot-term.enable =
+    foot.enable =
       lib.mkEnableOption "enable the foot terminal";
   };
 
-  config = lib.mkIf config.foot-term.enable {
+  config = lib.mkIf config.foot.enable {
     programs.foot = {
       enable = true;
       server.enable = true;
