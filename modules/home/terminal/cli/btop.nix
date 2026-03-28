@@ -8,7 +8,7 @@
       cudaSupport = true;
     };
     settings = {
-      color_theme = "tokyo-night"
+      color_theme = "tokyo-night";
       vim_keys = true;
       proc_tree = true;
       show_gpu_info = "on";
