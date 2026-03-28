@@ -22,7 +22,7 @@
         "rebuild-pc0" = "sudo nixos-rebuild switch --flake ~/.nixos#pc0";
         "mkdir" = "mkdir -p";
       };
-      shellInit = "tmux"
+      shellInit = "tmux";
     };
   };
 }
