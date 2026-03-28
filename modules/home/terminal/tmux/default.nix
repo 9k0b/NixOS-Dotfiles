@@ -16,7 +16,6 @@
       mouse = true;
       historyLimit = 10000;
       newSession = true;
-      plugins = import ./plugins.nix;
       shell = "/etc/profiles/per-user/main/bin/fish";
       terminal = "screem-256color";
     };
