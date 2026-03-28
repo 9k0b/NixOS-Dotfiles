@@ -16,6 +16,6 @@
       powerManagement.enable = true;
       powerManagement.finegrained = false;
       nvidia.settings = true;
-    }
-  }
+    };
+  };
 }
