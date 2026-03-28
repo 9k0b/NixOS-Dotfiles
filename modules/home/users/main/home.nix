@@ -26,6 +26,8 @@
   fastfetch.enable = true;
   # shell
   fishShell.enable = true;
+  # tmux
+  tmux.enable = true;
 
   home.packages = [
     pkgs.librewolf
