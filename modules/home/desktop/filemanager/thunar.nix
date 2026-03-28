@@ -9,8 +9,8 @@
 
   config = lib.mkIf config.thunar.enable {
     home.packages = with pkgs; [
-      xfce.thunar
-      xfce.thunar-volman
+      thunar
+      thunar-volman
     ];
   };
 }
