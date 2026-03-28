@@ -38,7 +38,7 @@
             bright_magenta = "bright_magenta";
             bright_cyan = "bright_cyan";
             bright_white = "bright_white";
-          };;
+          };
         }
       ];
     };
