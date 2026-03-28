@@ -1,6 +1,6 @@
 # Todo 
 ## Home-Manager
-- Sway
+- sway gaps und resize
 - spotify-tui
 - terminal 
 - shell (fish)

@@ -16,6 +16,7 @@ config,
       startup = import ./auto-start.nix;
       colors = import ./colors.nix;
       window = import ./window.nix;
+      gaps = import ./gaps.nix;
       fonts = import ./font.nix;
       bars = [ ];
     };

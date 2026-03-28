@@ -9,11 +9,11 @@
   };
   focusedInactive = {
      background = "#24283b";
-     border = "#9ece6a";
-     childBorder = "#9ece6a";
-     indicator = "#9ece6a";
-     text = "#c0caf5";
-  };
+     border = "#565f89";
+     childBorder = "#565f89";
+     indicator = "#565f89";
+     text = "#9aa5ce";
+   };
   unfocused = {
     background = "#24283b";
     border = "#565f89";
