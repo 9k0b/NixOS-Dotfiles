@@ -1,9 +1,7 @@
 # Todo 
 ## Home-Manager
-- sway gaps und resize
-- spotify-tui
-- terminal 
-- shell (fish)
+- tmux
+- fixing fastfetch
 ## NixOS
 - sound 
 - nvidia (cuda)
