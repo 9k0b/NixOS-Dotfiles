@@ -4,7 +4,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ../../nixos/default.nix
+      ../../modules/nixos/default.nix
     ];
 
   nix.settings.experimental-features = [
