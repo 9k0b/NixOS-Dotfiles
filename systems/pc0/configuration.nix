@@ -1,0 +1,44 @@
+{ config, lib, pkgs, ... }:
+
+{
+  imports =
+    [ # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+    ];
+
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
+
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+
+  networking.hostName = "pc0";
+
+  networking.networkmanager.enable = true;
+
+  time.timeZone = "Europe/Berlin";
+
+  services.pipewire = {
+    enable = true;
+    pulse.enable = true;
+  };
+
+  users.users.main = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" "networkmanager"]; # Enable ‘sudo’ for the user.
+  };
+
+  system.stateVersion = "25.11"; # Did you read the comment?
+ 
+  services.greetd = {
+    enable = true;
+    settings = {
+      default_session = {
+        command = "${pkgs.tuigreet}/bin/tuigreet --cmd sway";
+      };
+    };
+  };
+}
+
