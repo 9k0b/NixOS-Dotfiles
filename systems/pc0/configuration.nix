@@ -4,12 +4,16 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ../../nixos/default.nix
     ];
 
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
   ];
+
+  # gpu drivers
+  nvidia.enable = true;
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -31,7 +35,7 @@
   };
 
   system.stateVersion = "25.11"; # Did you read the comment?
- 
+
   services.greetd = {
     enable = true;
     settings = {
@@ -41,4 +45,3 @@
     };
   };
 }
-
