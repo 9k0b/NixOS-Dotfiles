@@ -4,7 +4,7 @@
 
   programs.git = {
     enable = true;
-    lfs = enabled;
+    lfs.enable = true;
     ignore = [
       "*.iso"
       "*.swap"
