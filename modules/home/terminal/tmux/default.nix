@@ -17,7 +17,7 @@
       historyLimit = 10000;
       newSession = true;
       shell = "/etc/profiles/per-user/main/bin/fish";
-      terminal = "screem-256color";
+      terminal = "screen-256color";
     };
   };
 }

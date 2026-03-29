@@ -1,4 +1,4 @@
 {
-  border = 3;
+  border = 2;
   titlebar = false;
 }
