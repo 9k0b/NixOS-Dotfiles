@@ -40,6 +40,9 @@
   # git
   gh.enable = true;
   lazygit.enable = true;
+  # atuin
+  atuin.enable = true;
+  terminalUtils.enable = true;
 
   home.packages = [
     pkgs.librewolf
