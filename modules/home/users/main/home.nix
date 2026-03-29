@@ -37,6 +37,9 @@
   keepassxc.enable = true;
   sshAgent.enable = true;
 
+  # git
+  gh.enable = true;
+  lazygit.enable = true;
 
   home.packages = [
     pkgs.librewolf
@@ -44,9 +47,5 @@
     pkgs.foot
     pkgs.wofi
   ];
-
-  programs.git.enable = true;
-  programs.git.userName = "9k0b";
-  programs.git.userEmail = "jakob.fuenderich@gmail.com";
   programs.neovim.enable = true;
 }
