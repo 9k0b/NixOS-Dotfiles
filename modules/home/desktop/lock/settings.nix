@@ -43,6 +43,16 @@
       halign = "center";
       valign = "bottom";
     }
+    {
+      monitor = "";
+      text = "cmd[update:1000] date +"%H:%M"";
+      font_family = "JetBrainsMono Nerd Font Propo";
+      font_color = "rgb(122, 162, 247)";
+      font_size = "100";
+      position = "0, 700";
+      halign = "center";
+      valign = "bottom";
+    }
   ];
 
   input-field = [
@@ -54,7 +64,7 @@
       outer_color = "rgb(187, 154, 247)";
       font_color = "rgb(187, 154, 247)";
       fail_color = "rgb(247, 118, 142)";
-      rounding = 15;
+      rounding = 30;
       fail_text = "<i>$FAIL <b>($ATTEMPTS)</b></i>";
       fail_transition = 300;
       dots_size = 0.2;
