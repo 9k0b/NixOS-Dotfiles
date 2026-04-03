@@ -45,7 +45,7 @@
     }
     {
       monitor = "";
-      text = "cmd[update:1000] date +"%H:%M"";
+      text = "cmd[update:1000] date +%H:%M";
       font_family = "JetBrainsMono Nerd Font Propo";
       font_color = "rgb(122, 162, 247)";
       font_size = "100";
