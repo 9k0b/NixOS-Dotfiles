@@ -7,5 +7,6 @@
     ./filemanager/default.nix
     ./clipboard.nix
     ./lock/default.nix
+    ./wofi/default.nix
   ];
 }
