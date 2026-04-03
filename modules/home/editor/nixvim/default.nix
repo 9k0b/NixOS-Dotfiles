@@ -4,7 +4,7 @@
 
  imports = [
    inputs.nixvim.homeModules.nixvim
-   #./plugins/default.nix
+   ./plugins/default.nix
    #./options/default.nix
  ];
 
