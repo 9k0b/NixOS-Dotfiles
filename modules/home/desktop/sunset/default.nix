@@ -14,6 +14,7 @@
       latitude = 51.0;
       temperature = {
         night = 2500;
+        day = 25000;
       };
       tray = true;
     };
