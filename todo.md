@@ -1,7 +1,9 @@
 # Todo 
 ## Home-Manager
+- swww (wallpaper)
 - fixing fastfetch
-- sunset lock und so
+- sunset und so
+- waybar
 - zed und nixvim
 - browser
 ## NixOS

@@ -9,5 +9,5 @@
   {command = "swaymsg 'workspace 5, exec podman-desktop'";}
   {command = "swaymsg 'workspace 6, exec helium-browser'";}
   {command = "swaymsg 'exec waybar'";}
-  {command = "swaymsg 'exec swww'";}
+  {command = "swaymsg 'exec swww-daemon && swww img ~/.nixos/images/wallpapers/tokyo_night_cafe.png'";}
 ]
