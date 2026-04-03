@@ -6,5 +6,7 @@
     ./lsp/default.nix
     ./conform/default.nix
     ./treesitter/default.nix
+    ./blink/default.nix
+    ./snippets/default.nix
   ];
 }
