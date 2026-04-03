@@ -15,7 +15,7 @@
       }
       {
         mode = "n";
-        key = "<leader>ff"
+        key = "<leader>ff";
         action = ":Telescope find_files<CR>";
       }
       {
