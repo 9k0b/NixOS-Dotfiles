@@ -2,7 +2,7 @@
 ## Home-Manager
 - fixing fastfetch
 - waybar
-- zed und nixvim
+- zed und nixvim options 
 - browser
 ## NixOS
 - cuda
