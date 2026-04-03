@@ -1,6 +1,6 @@
 {
 
-  width = "10%";
+  width = "20%";
   height = "40%";
   prompt = "Search: ";
   show_all = "false";

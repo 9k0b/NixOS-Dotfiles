@@ -4,6 +4,7 @@ window {
   border-radius: 8px;
   background-color: #1a1b26; /* bg */
   font-family: JetBrainsMono Nerd Font;
+  font-weight = bold;
   font-size: 13px;
 }
 
