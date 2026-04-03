@@ -8,5 +8,9 @@
     ./treesitter/default.nix
     ./blink/default.nix
     ./snippets/default.nix
+    ./telescope/default.nix
+    ./markdown/default.nix
+    ./image/default.nix
+    ./which-key/default.nix
   ];
 }
