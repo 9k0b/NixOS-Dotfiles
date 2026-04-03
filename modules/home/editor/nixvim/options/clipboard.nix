@@ -5,7 +5,9 @@
   programs.nixvim = {
     clipboard = {
       register = "unnamedplus";
-      providers = "wl-copy";
+      providers = {
+        wl-copy.enable = true;
+      };
     };
   };
 }
