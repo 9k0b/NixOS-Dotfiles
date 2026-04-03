@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     sunset.enable =
       lib.mkEnableOption "enable hyprsunset for screendiming and better sleep";

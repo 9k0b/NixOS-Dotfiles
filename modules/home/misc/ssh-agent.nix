@@ -1,7 +1,9 @@
-{pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     sshAgent.enable =
       lib.mkEnableOption "enable ssh-agent";

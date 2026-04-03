@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     wofi.enable =
       lib.mkEnableOption "enable wofi as a launcher";

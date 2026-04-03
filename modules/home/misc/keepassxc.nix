@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     keepassxc.enable =
       lib.mkEnableOption "enable the keepassxc password manager";

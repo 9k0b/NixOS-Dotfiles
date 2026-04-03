@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     lockscreen.enable =
       lib.mkEnableOption "enable hyprlock as a lockscreen";

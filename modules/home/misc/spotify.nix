@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     spotify.enable =
       lib.mkEnableOption "enable spotify_player for spotify";

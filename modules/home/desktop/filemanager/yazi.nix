@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     yazi.enable =
       lib.mkEnableOption "enable yazi a tui file-manager";

@@ -1,9 +1,4 @@
-{
-  pkgs,
-  ...
-}:
-
-{
+{pkgs, ...}: {
   imports = [
     ./misc/default.nix
     ./desktop/default.nix

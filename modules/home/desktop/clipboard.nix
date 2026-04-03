@@ -1,7 +1,4 @@
-{ pkgs, ... }:
-
-{
-
+{pkgs, ...}: {
   services.cliphist = {
     enable = true;
     systemdTargets = ["config.wayland.systemd.target"];

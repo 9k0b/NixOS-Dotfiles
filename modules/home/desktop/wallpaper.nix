@@ -1,7 +1,10 @@
-{ pkgs, lib, config, inputs, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  inputs,
+  ...
+}: {
   options = {
     wallpaper.enable =
       lib.mkEnableOption "enable swww for wallpapers";

@@ -1,34 +1,34 @@
 {
   general = [
     {
-    hide_cursor = true;
-    ignore_empty_input = true;
-    immediate_render = true;
-    screencopy_mode = true;
-    fail_timeout = 5000;
+      hide_cursor = true;
+      ignore_empty_input = true;
+      immediate_render = true;
+      screencopy_mode = true;
+      fail_timeout = 5000;
     }
   ];
 
   animations = [
     {
-    enabled = true;
-    fade_in = {
-      duration = 150;
-      bezier = "easeOutQuint";
-    };
-    fade_out = {
-      duration = 150;
-      bezier = "easeOutQuint";
-    };
+      enabled = true;
+      fade_in = {
+        duration = 150;
+        bezier = "easeOutQuint";
+      };
+      fade_out = {
+        duration = 150;
+        bezier = "easeOutQuint";
+      };
     }
   ];
 
   background = [
     {
-    path = "~/.nixos/images/wallpapers/tokyo_night_cafe.png";
-    monitor = "";
-    blur_passes = 3;
-    blur_size = 5;
+      path = "~/.nixos/images/wallpapers/tokyo_night_cafe.png";
+      monitor = "";
+      blur_passes = 3;
+      blur_size = 5;
     }
   ];
 
@@ -54,7 +54,6 @@
       valign = "bottom";
     }
     {
-
     }
   ];
 

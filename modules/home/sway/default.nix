@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     swaywm.enable =
       lib.mkEnableOption "enable the sway wayland compositor";
@@ -20,7 +22,7 @@
         window = import ./window.nix;
         gaps = import ./gaps.nix;
         fonts = import ./font.nix;
-        bars = [ ];
+        bars = [];
       };
     };
   };

@@ -1,8 +1,9 @@
-
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     foot.enable =
       lib.mkEnableOption "enable the foot terminal";

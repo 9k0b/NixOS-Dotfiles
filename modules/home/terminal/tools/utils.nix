@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     terminalUtils.enable =
       lib.mkEnableOption "enable some small terminal utils";

@@ -1,14 +1,16 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     nvidia.enable =
       lib.mkEnableOption "enable the nvidia drivers (with open kernel module)";
   };
 
   config = lib.mkIf config.nvidia.enable {
-    programs.sway.package = pkgs.sway.override { extraOptions = [ "--unsupported-gpu" ]; };
+    programs.sway.package = pkgs.sway.override {extraOptions = ["--unsupported-gpu"];};
     hardware.nvidia = {
       package = config.boot.kernelPackages.nvidiaPackages.latest;
       open = true;

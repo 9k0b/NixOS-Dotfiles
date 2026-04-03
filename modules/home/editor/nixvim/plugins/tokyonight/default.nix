@@ -1,7 +1,4 @@
-{ pkgs, ... }:
-
-{
-
+{pkgs, ...}: {
   programs.nixvim = {
     colorschemes = {
       tokyonight = {
@@ -9,7 +6,7 @@
         settings = {
           style = "moon";
         };
-      } ;
+      };
     };
   };
 }

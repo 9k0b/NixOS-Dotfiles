@@ -1,5 +1,4 @@
 {
-
   description = "NixOS Flake";
 
   inputs = {
@@ -72,19 +71,19 @@
     nixosConfigurations = {
       pc0 = nixpkgs.lib.nixosSystem {
         inherit system;
-        specialArgs = { inherit inputs;};
-        modules =[
-        ./systems/pc0/configuration.nix
-        home-manager.nixosModules.home-manager
-        {
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.users.main = import ./modules/home/users/main/home.nix;
-          home-manager.backupFileExtension = "backup";
-          home-manager.extraSpecialArgs = { inherit inputs;};
-        }
+        specialArgs = {inherit inputs;};
+        modules = [
+          ./systems/pc0/configuration.nix
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.users.main = import ./modules/home/users/main/home.nix;
+            home-manager.backupFileExtension = "backup";
+            home-manager.extraSpecialArgs = {inherit inputs;};
+          }
         ];
-        };
       };
     };
+  };
 }

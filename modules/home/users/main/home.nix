@@ -1,7 +1,10 @@
-{ pkgs, lib, config, inputs, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  inputs,
+  ...
+}: {
   imports = [
     ../../default.nix
   ];
