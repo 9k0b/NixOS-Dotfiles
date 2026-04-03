@@ -47,6 +47,9 @@
   # lockscreen
   lockscreen.enable = true;
 
+  # launcher
+  wofi.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor

@@ -62,16 +62,16 @@
     {
       monitor = "";
       size = "400, 50";
-      outline_thickness = 5;
+      outline_thickness = 4;
       inner_color = "rgba(122, 162, 247, 0.6)";
-      outer_color = "rgb(187, 154, 247)";
+      outer_color = "rgb(158, 206, 106)";
       font_color = "rgb(187, 154, 247)";
       fail_color = "rgb(247, 118, 142)";
       rounding = 30;
       fail_text = "<i>$FAIL <b>($ATTEMPTS)</b></i>";
       fail_transition = 300;
-      dots_size = 0.4;
-      dots_spacing = 0.64;
+      dots_size = 0.2;
+      dots_spacing = 0.5;
       dots_center = true;
       position = "0, 200";
       halign = "center";
