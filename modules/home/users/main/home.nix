@@ -59,8 +59,10 @@
   # redlight
   sunset.enable = true;
 
+  # zed editor
+  zed-editor.enable = true;
+
   home.packages = [
     pkgs.librewolf
-    pkgs.zed-editor
   ];
 }
