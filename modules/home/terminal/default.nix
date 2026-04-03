@@ -7,6 +7,5 @@
     ./cli/default.nix
     ./tmux/default.nix
     ./tools/default.nix
-    ./sunset/default.nix
   ];
 }
