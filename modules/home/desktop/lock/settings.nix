@@ -13,11 +13,11 @@
     {
     enabled = true;
     fade_in = {
-      duration = 300;
+      duration = 150;
       bezier = "easeOutQuint";
     };
     fade_out = {
-      duration = 300;
+      duration = 150;
       bezier = "easeOutQuint";
     };
     }
@@ -48,10 +48,13 @@
       text = "cmd[update:1000] date +%H:%M";
       font_family = "JetBrainsMono Nerd Font Propo";
       font_color = "rgb(122, 162, 247)";
-      font_size = "100";
+      font_size = "250";
       position = "0, 700";
       halign = "center";
       valign = "bottom";
+    }
+    {
+
     }
   ];
 
@@ -59,15 +62,15 @@
     {
       monitor = "";
       size = "400, 50";
-      outline_thickness = 3;
-      inner_color = "rgb(122, 162, 247)";
+      outline_thickness = 5;
+      inner_color = "rgba(122, 162, 247, 0.6)";
       outer_color = "rgb(187, 154, 247)";
       font_color = "rgb(187, 154, 247)";
       fail_color = "rgb(247, 118, 142)";
       rounding = 30;
       fail_text = "<i>$FAIL <b>($ATTEMPTS)</b></i>";
       fail_transition = 300;
-      dots_size = 0.2;
+      dots_size = 0.4;
       dots_spacing = 0.64;
       dots_center = true;
       position = "0, 200";
