@@ -11,8 +11,8 @@
       {
         mode = "n";
         key = "<leader>cd";
-        action = ":Ex"
+        action = ":Ex";
       }
     ];
-  }
+  };
 }
