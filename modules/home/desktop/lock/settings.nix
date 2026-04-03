@@ -48,8 +48,8 @@
       text = "cmd[update:1000] date +%H:%M";
       font_family = "JetBrainsMono Nerd Font Propo";
       font_color = "rgb(122, 162, 247)";
-      font_size = "250";
-      position = "0, 700";
+      font_size = "200";
+      position = "0, 500";
       halign = "center";
       valign = "bottom";
     }
