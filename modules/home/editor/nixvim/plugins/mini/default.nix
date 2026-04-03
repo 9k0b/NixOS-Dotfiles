@@ -4,5 +4,6 @@
     ./ai.nix
     ./comment.nix
     ./cursor-word.nix
+    ./devicons.nix
   ];
 }
