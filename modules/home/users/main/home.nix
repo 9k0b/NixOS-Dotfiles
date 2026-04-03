@@ -44,6 +44,9 @@
   atuin.enable = true;
   terminalUtils.enable = true;
 
+  # lockscreen
+  lockscreen.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
