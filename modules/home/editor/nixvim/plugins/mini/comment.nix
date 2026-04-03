@@ -7,10 +7,6 @@
       mini-comment = {
         enable = true;
         settings = {
-          hooks = {
-            post = lib.nixvim.mkRaw "function() end";
-            pre = lib.nixvim.mkRaw "function() end";
-          };
           mappings = {
             comment = "gc";
             comment_line = "gcc";
