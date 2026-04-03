@@ -25,7 +25,7 @@
 
   background = [
     {
-    path = "../../../../images/wallpapers/tokyo_night_cafe.png";
+    path = "~/.nixos/images/wallpapers/tokyo_night_cafe.png";
     monitor = "";
     blur_passes = 3;
     blur_size = 5;
@@ -45,8 +45,24 @@
     }
   ];
 
-
-
-
-
+  input-field = [
+    {
+      monitor = "";
+      size = "200, 30";
+      outline_thickness = 3;
+      inner_color = "rgb(180, 249, 248)";
+      outer_color = "rgb(255, 158, 100)";
+      font_color = "rgb(255, 158, 100)";
+      fail_color = "rgb(247, 118, 142)";
+      rounding = 15;
+      fail_text = "<i>$FAIL <b>($ATTEMPTS)</b></i>";
+      fail_transition = 300;
+      dots_size = 0.2;
+      dots_spacing = 0.64;
+      dots_center = true;
+      position = "0, 80";
+      halign = "center";
+      valign = "bottom";
+    }
+  ];
 }
