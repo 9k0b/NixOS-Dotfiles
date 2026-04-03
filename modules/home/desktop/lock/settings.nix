@@ -38,8 +38,8 @@
       monitor = "";
       text = "cmd[update:1000] whoami";
       font_family = "JetBrainsMono Nerd Font Propo";
-      color = "#7aa2f7";
-      position = "0, 160";
+      color = "rgb(122, 162, 247)";
+      position = "0, 300";
       halign = "center";
       valign = "bottom";
     }
@@ -48,11 +48,11 @@
   input-field = [
     {
       monitor = "";
-      size = "200, 30";
+      size = "400, 50";
       outline_thickness = 3;
-      inner_color = "rgb(180, 249, 248)";
-      outer_color = "rgb(255, 158, 100)";
-      font_color = "rgb(255, 158, 100)";
+      inner_color = "rgb(122, 162, 247)"
+      outer_color = "rgb(187, 154, 247)";
+      font_color = "rgb(187, 154, 247)";
       fail_color = "rgb(247, 118, 142)";
       rounding = 15;
       fail_text = "<i>$FAIL <b>($ATTEMPTS)</b></i>";
@@ -60,7 +60,7 @@
       dots_size = 0.2;
       dots_spacing = 0.64;
       dots_center = true;
-      position = "0, 80";
+      position = "0, 200";
       halign = "center";
       valign = "bottom";
     }
