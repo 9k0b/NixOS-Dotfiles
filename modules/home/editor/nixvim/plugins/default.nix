@@ -1,12 +1,10 @@
-{ pkgs, ... }:
-
-{
-
+{pkgs, ...}: {
   imports = [
-    ./lsp.nix
-    ./conform-nvim.nix
     ./mini/default.nix
-    ./tokyo-night.nix
-    ./lualine.nix
+    ./tokyonight/default.nix
+    ./lualine/default.nix
+    ./lsp/default.nix
+    ./conform/default.nix
+    ./treesitter/default.nix
   ];
 }
