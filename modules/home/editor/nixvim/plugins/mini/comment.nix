@@ -18,7 +18,6 @@
             textobject = "gc";
           };
           options = {
-            custom_commentstring = lib.nixvim.mkRaw "nil";
             ignore_blank_line = false;
             pad_comment_parts = true;
             start_of_line = false;
