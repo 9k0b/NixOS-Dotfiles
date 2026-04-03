@@ -50,7 +50,7 @@
       monitor = "";
       size = "400, 50";
       outline_thickness = 3;
-      inner_color = "rgb(122, 162, 247)"
+      inner_color = "rgb(122, 162, 247)";
       outer_color = "rgb(187, 154, 247)";
       font_color = "rgb(187, 154, 247)";
       fail_color = "rgb(247, 118, 142)";
