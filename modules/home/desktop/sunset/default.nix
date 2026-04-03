@@ -8,9 +8,14 @@
   };
 
   config = lib.mkIf config.sunset.enable {
-    services.hyprsunset = {
+    services.gammastep = {
       enable = true;
-      settings = import ./settings.nix;
+      longitude = 10;
+      latitude = 51;
+      temperature = {
+        night = 2500;
+      };
+      tray = true;
     };
   };
 }
