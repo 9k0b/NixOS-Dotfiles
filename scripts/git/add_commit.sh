@@ -1,6 +1,8 @@
 #! /usr/bin/env nix-shell
 #! nix-shell -i bash -p bash
 
+set -eu pipefail
+
 commit_message=""
 git_repo_create_y_or_no=""
 
