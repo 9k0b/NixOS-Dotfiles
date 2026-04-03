@@ -50,6 +50,9 @@
   # launcher
   wofi.enable = true;
 
+  # wallpaper
+  wallpaper.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
