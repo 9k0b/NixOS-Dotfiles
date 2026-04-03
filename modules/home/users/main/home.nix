@@ -56,8 +56,5 @@
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
-    pkgs.foot
-    pkgs.wofi
   ];
-  programs.neovim.enable = true;
 }
