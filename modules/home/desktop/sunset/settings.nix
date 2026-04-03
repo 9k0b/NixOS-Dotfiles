@@ -24,7 +24,7 @@
       gamme = "0.75";
     }
     {
-      time = 20:30;
+      time = "20:30";
       temperature = 2000;
       gamme = "0.7";
     }
