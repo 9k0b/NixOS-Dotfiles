@@ -53,6 +53,9 @@
   # wallpaper
   wallpaper.enable = true;
 
+  # redlight
+  sunset.enable = true;
+
   home.packages = [
     pkgs.librewolf
     pkgs.zed-editor
