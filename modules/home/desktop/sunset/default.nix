@@ -10,8 +10,8 @@
   config = lib.mkIf config.sunset.enable {
     services.gammastep = {
       enable = true;
-      longitude = 10;
-      latitude = 51;
+      longitude = 10.0;
+      latitude = 51.0;
       temperature = {
         night = 2500;
       };
