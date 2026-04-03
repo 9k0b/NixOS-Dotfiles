@@ -5,5 +5,6 @@
   imports = [
     ./lsp.nix
     ./conform-nvim.nix
+    ./mini/default.nix
   ];
 }

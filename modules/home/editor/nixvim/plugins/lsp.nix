@@ -8,49 +8,49 @@
         enable = true;
         servers = {
           asm_lsp = {
-            enable = true;
+            enable = false;
           };
           bashls = {
             enable = true;
           };
           clangd = {
-            enable = true;
+            enable = false;
           };
           cssls = {
-            enable = true;
+            enable = false;
           };
           docker_language_server = {
-            enable = true;
+            enable = false;
           };
           gopls = {
             enable = true;
           };
           html = {
-            enable = true;
+            enable = false;
           };
           jsonls = {
             enable = true;
           };
           lua_ls = {
-            enable = true;
+            enable = false;
           };
           marksman = {
             enable = true;
           };
           powershell_ls = {
-            enable = true;
+            enable = false;
           };
           pylsp = {
             enable = true;
           };
           sqls = {
-            enable = true;
+            enable = false;
           };
           systemd_ls = {
             enable = true;
           };
           ts_ls = {
-            enable = true;
+            enable = false;
           };
         };
       };
