@@ -1,25 +1,17 @@
 #! /usr/bin/env nix-shell
 #! nix-shell -i bash -p bash alejandra
 
-set -eu pipefail
+set -e
 
-push_or_local=""
-git_repo_root=git rev-parse --show-toplevel
-# tracking every change with git
-read -p "Do you want to push the changes to a remote Git Repo or store them Localy (1/2): " push_or_local
-if [[ "$push_or_local" == "1" ]]; then
-    ../git/add_commit.sh
-elif [[ "$push_or_local" == "2" ]]; then
-    ../git/add_commit_push.sh
-fi
+repo_root=$(git rev-parse --show-toplevel)
+rebuild_machine=""
 
-# formating
-echo "Formatting now ..."
-cd $git_repo_root
-alejandra .
+cd $repo_root
+alejandra . &>/dev/null
 
-# updating flakes
+read -p "Enter the machine name for rebuilding: " rebuild_machine
 nix flake update
+sudo nixos-rebuild switch --flake $repo_root#$rebuild_machine
 
-# rebuilding
-sudo nixos-rebuild switch --flake
+sudo nix-env --delete-generations +3
+sudo nix-collect-garbage
