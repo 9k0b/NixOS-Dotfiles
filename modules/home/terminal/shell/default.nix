@@ -1,5 +1,5 @@
 {pkgs, ...}: {
   imports = [
-    ./fish.nix
+    ./fish/default.nix
   ];
 }

@@ -1,9 +1,9 @@
 {pkgs, ...}: {
   imports = [
-    ./fonts.nix
+    ./fonts/default.nix
     ./filemanager/default.nix
-    ./clipboard.nix
-    ./wallpaper.nix
+    ./clipboard/default.nix
+    ./wallpaper/default.nix
     ./lock/default.nix
     ./wofi/default.nix
     ./sunset/default.nix

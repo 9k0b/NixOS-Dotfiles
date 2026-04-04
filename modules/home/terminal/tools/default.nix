@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   imports = [
     ./git/default.nix
-    ./atuin.nix
-    ./utils.nix
+    ./atuin/default.nix
+    ./utils/default.nix
   ];
 }

@@ -1,12 +1,12 @@
 {pkgs, ...}: {
   imports = [
+    ./bat/default.nix
+    ./btop/default.nix
+    ./eza/default.nix
+    ./fd/default.nix
+    ./fzf/default.nix
     ./fetch/default.nix
-    ./btop.nix
-    ./eza.nix
-    ./fd.nix
-    ./fzf.nix
-    ./rg.nix
-    ./zoxide.nix
-    ./bat.nix
+    ./ripgrep/default.nix
+    ./zoxide/default.nix
   ];
 }

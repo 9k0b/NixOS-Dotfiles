@@ -21,8 +21,10 @@
         "...." = "cd ../../..";
         "....." = "cd ../../../..";
         "......" = "cd ../../../../../";
-        "rebuild-pc0" = "sudo nixos-rebuild switch --flake ~/.nixos#pc0";
         "mkdir" = "mkdir -p";
+        "gcm" = "../../../../../scripts/git/add_commit.sh";
+        "rebuild" = "../../../../../scripts/nixos/rebuild.sh";
+        "gcr" = "../../../../../scripts/git/add_commit_push.sh";
       };
       shellInit = "tmux";
     };

@@ -1,5 +1,5 @@
 {pkgs, ...}: {
   imports = [
-    ./foot.nix
+    ./foot/default.nix
   ];
 }

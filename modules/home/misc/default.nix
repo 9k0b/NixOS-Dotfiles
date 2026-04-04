@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   imports = [
-    ./spotify.nix
-    ./keepassxc.nix
-    ./ssh-agent.nix
+    ./passwords/default.nix
+    ./spotify/default.nix
+    ./ssh/default.nix
   ];
 }
