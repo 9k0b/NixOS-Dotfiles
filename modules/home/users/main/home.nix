@@ -53,6 +53,9 @@
   # launcher
   wofi.enable = true;
 
+  # bar
+  waybar.enable = true;
+
   # wallpaper
   wallpaper.enable = true;
 
