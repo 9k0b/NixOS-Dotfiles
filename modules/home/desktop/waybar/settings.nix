@@ -106,7 +106,7 @@
       format = "{text}";
       escape = true;
       return-type = "json";
-      max-length = 25;
+      max-length = 40;
       rotate = 90;
       on-click = "playerctl pause resume";
       on-click-right = "playerctl stop";
