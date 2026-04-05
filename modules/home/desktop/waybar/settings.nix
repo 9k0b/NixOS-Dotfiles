@@ -108,10 +108,10 @@
       return-type = "json";
       max-length = 25;
       rotate = 90;
-      on-click = "playerctl pause";
-      on-click-right = "playerctl stop";
-      on-scroll-up = "playerctl next";
-      on-scroll-down = "playerctl previous";
+      on-click = "/run/current-system/sw/bin/playerctl pause";
+      on-click-right = "/run/current-system/sw/bin/playerctl stop";
+      on-scroll-up = "/run/current-system/sw/bin/playerctl next";
+      on-scroll-down = "/run/current-system/sw/bin/playerctl previous";
       exec = "~/.nixos/scripts/waybar/media_player.py 2> /dev/null";
       tooltip = false;
     };
