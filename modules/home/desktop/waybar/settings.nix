@@ -31,7 +31,7 @@
     };
     "custom/weather" = {
       exec = "../../../../scripts/waybar/weather.sh"
-    }
+    };
     "battery" = {
       interval = 30;
       format = "{icon}";
