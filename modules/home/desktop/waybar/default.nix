@@ -1,7 +1,9 @@
-{ pkgs, lib, config, ... }:
-
 {
-
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   options = {
     waybar.enable =
       lib.mkEnableOption "enable waybar";
