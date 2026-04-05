@@ -26,7 +26,7 @@
 
     "custom/nixos" = {
       format = "";
-      on-click = "../../../../scripts/menus/power_menu.sh";
+      on-click = "~/.nixos/scripts/waybar/weather.sh";
       tooltip = false;
     };
     "custom/weather" = {
@@ -70,7 +70,7 @@
     };
     "clock" = {
       interval = 1;
-      format = "{:%H\n:%M}";
+      format = "{:%H\n%M}";
     };
     "network" = {
       interval = 1;
@@ -95,6 +95,25 @@
       persistent-workspaces = {
         "*" = 8;
       };
+    };
+
+    "image#cover" = {
+      exec = "~/.nixos/scripts/waybar/cover_image.sh";
+      size = 15;
+      interval = 1;
+    };
+    "custom/media" = {
+      format = "{text}";
+      escape = true;
+      return-type = "json";
+      max-length = 25;
+      rotate = 180;
+      on-click = "playerctl pause";
+      on-click-right = "playerctl stop";
+      on-scroll-up "playerctl next";
+      on-scroll-down = "playerctl previous";
+      exec = "~/.nixos/scripts/waybar/media_player.py 2> /dev/null";
+      tooltip = false;
     };
   };
 }
