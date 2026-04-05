@@ -108,12 +108,30 @@
       return-type = "json";
       max-length = 25;
       rotate = 90;
-      on-click = "playerctl pause";
+      on-click = "playerctl pause resume";
       on-click-right = "playerctl stop";
       on-scroll-up = "playerctl next";
       on-scroll-down = "playerctl previous";
       exec = "~/.nixos/scripts/waybar/media_player.py 2> /dev/null";
       tooltip = false;
+    };
+    "custom/pipewire" = {
+      format = "󰓃";
+      on-click = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
+      on-scroll-up = "wpctl set-volume @DEFAULT_AUDIO_SINK 1%+";
+      on-scroll-down = "wpctl set-volume @DEFAULT_AUDIO_SINK 1%-";
+    };
+    "cpu" = {
+      format = "{usage}";
+      interval = 5;
+    };
+    "memory" = {
+      format = "{used:0.1f}\n{total:0.1f}";
+      interval = 5;
+    };
+    "disk" = {
+      format = "{used:0.1f}\n{total:0.1f}";
+      interval = 60;
     };
   };
 }
