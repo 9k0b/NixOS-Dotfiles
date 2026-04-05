@@ -110,7 +110,7 @@
       rotate = 180;
       on-click = "playerctl pause";
       on-click-right = "playerctl stop";
-      on-scroll-up "playerctl next";
+      on-scroll-up = "playerctl next";
       on-scroll-down = "playerctl previous";
       exec = "~/.nixos/scripts/waybar/media_player.py 2> /dev/null";
       tooltip = false;
