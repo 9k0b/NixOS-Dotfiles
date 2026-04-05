@@ -31,6 +31,10 @@
     };
     "custom/weather" = {
       exec = "../../../../scripts/waybar/weather.sh";
+      return-type = "json";
+      format = "{}";
+      tooltip = true;
+      interval = 60;
     };
     "battery" = {
       interval = 30;
@@ -66,7 +70,7 @@
     };
     "clock" = {
       interval = 1;
-      format = "{:%H:%M}";
+      format = "{:%H\n:%M}";
     };
     "network" = {
       interval = 1;
@@ -86,6 +90,8 @@
     };
 
     "sway/workspaces" = {
+      format = "";
+      disable-scroll = true;
       persistent-workspaces = {
         "*" = 8;
       };
