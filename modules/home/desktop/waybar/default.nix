@@ -15,7 +15,7 @@
       enableDebug = true;
       enableInspect = true;
       settings = import ./settings.nix;
-      style = builtins.readFile ./style.css;
+      #style = builtins.readFile ./style.css;
     };
   };
 }
