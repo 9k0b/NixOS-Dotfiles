@@ -30,7 +30,7 @@
       tooltip = false;
     };
     "custom/weather" = {
-      exec = "../../../../scripts/waybar/weather.sh"
+      exec = "../../../../scripts/waybar/weather.sh";
     };
     "battery" = {
       interval = 30;
