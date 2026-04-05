@@ -7,5 +7,6 @@
     ./lock/default.nix
     ./wofi/default.nix
     ./sunset/default.nix
+    ./waybar/default.nix
   ];
 }
