@@ -26,11 +26,11 @@
 
     "custom/nixos" = {
       format = "";
-      on-click = "~/.nixos/scripts/waybar/weather.sh";
+      on-click = "~/.nixos/menus/power_menu.sh";
       tooltip = false;
     };
     "custom/weather" = {
-      exec = "../../../../scripts/waybar/weather.sh";
+      exec = "~/.nixos/scripts/waybar/weather.sh";
       return-type = "json";
       format = "{}";
       tooltip = true;
@@ -107,7 +107,7 @@
       escape = true;
       return-type = "json";
       max-length = 25;
-      rotate = 180;
+      rotate = 90;
       on-click = "playerctl pause";
       on-click-right = "playerctl stop";
       on-scroll-up = "playerctl next";
