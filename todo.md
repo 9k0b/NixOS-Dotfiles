@@ -4,6 +4,7 @@
 
 - fixing fastfetch
 - waybar
+- starship
 - wallpaperchanger
 - zed und nixvim options
 - browser

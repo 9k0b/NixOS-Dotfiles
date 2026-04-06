@@ -2,6 +2,7 @@
   mainBar = {
     layer = "top";
     position = "right";
+    margin = 2;
     height = 1080;
     width = 0;
 
@@ -131,7 +132,7 @@
     };
     "disk" = {
       format = "{used:0.1f}\n{total:0.1f}";
-      interval = 60;
+      interval = 5;
     };
   };
 }

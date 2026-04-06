@@ -1,6 +1,35 @@
 * {
     min-width: 0;
+    color: #ffffff;
     font-weight: bold;
     font-size: 9;
     font-family: JetBrainsMono Nerd Font;
+    border: 0px;
+    border-radius: 0px;
+}
+
+tooltip {
+    background-color: #24283b;
+    border: 2px solid #bb9af7;
+    color: #7aa2f7;
+}
+
+tooltip label {
+    padding: 2px;
+    color: #7aa2f7;
+    font-size: 16px;
+}
+
+#waybar {
+    background-color: #24283b;
+    border: 2px solid #9ece6a;
+    padding: 2px;
+    margin: 2px;
+}
+
+#custom-nixos {
+    font-size: 25;
+    color: #7aa2f7;
+    padding-top: 5px;
+    padding-right: 4px;
 }
