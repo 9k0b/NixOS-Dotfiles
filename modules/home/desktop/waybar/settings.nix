@@ -2,7 +2,6 @@
   mainBar = {
     layer = "top";
     position = "right";
-    margin = 2;
     height = 1080;
     width = 0;
 

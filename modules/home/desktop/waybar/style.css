@@ -1,11 +1,14 @@
 * {
     min-width: 0;
-    color: #ffffff;
+    color: #c0caf5;
     font-weight: bold;
     font-size: 9;
     font-family: JetBrainsMono Nerd Font;
     border: 0px;
     border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0px;
 }
 
 tooltip {
@@ -21,15 +24,51 @@ tooltip label {
 }
 
 #waybar {
-    background-color: #24283b;
-    border: 2px solid #9ece6a;
-    padding: 2px;
-    margin: 2px;
+    background: linear-gradient(to top, #242830 0%, #243049 0%);
 }
 
 #custom-nixos {
     font-size: 25;
-    color: #7aa2f7;
+    color: #7dcfff;
     padding-top: 5px;
-    padding-right: 4px;
+    padding-right: 3px;
+}
+
+#custom-weather {
+    color: #b4f9f8;
+    font-size: 12px;
+}
+
+#clock {
+    font-size: 20;
+    color: #7aa2f7;
+    margin-left: 1px;
+    padding: 5px;
+}
+
+#network {
+    color: #cfc9c2;
+    font-size: 20;
+}
+
+#workspaces {
+    background: linear-gradient(180deg, #bb9af7 50%, #565f89 100%);
+    transition: all 0.3s ease-in-out;
+    margin: 0 10px 0 10px;
+}
+
+#workspaces button {
+    color: transparent;
+    background: linear-gradient(180deg, #bb9af7 50%, #565f89 100%);
+    transition: all 0.3s ease-in-out;
+    min-width: 0px;
+    min-height: 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#workspaces button.active {
+    background: linear-gradient(180deg, #bb9af7 50%, #565f89 100%);
+    min-height: 50px;
+    transition: all 0.3s ease-in-out;
 }
