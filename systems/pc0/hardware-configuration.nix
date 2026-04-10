@@ -16,7 +16,6 @@
   boot.initrd.kernelModules = ["dm-snapshot" "cryptd"];
   boot.initrd.luks.devices."cryptroot".device = "/dev/disk/by-label/NIXLUKS";
 
-  boot.initrd.systemd.enable = true;
   console.earlySetup = true;
   console.keyMap = "de";
 
