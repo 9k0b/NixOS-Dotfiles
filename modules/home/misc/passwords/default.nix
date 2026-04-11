@@ -24,9 +24,7 @@
       enableFishIntegration = true;
       enableSshSupport = true;
       pinentry = {
-        package = [
-          pkgs.pinentry-tty
-        ];
+        package = pkgs.pinentry-tty;
       };
     };
   };
