@@ -37,7 +37,7 @@
   tmux.enable = true;
 
   # password manager
-  keepassxc.enable = true;
+  password-store.enable = true;
   sshAgent.enable = true;
 
   # git

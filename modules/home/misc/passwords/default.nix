@@ -13,10 +13,6 @@
     programs.password-store = {
       enable = true;
       packages = pass-wayland;
-      settings = {
-
-        };
-      };
     };
   };
 }
