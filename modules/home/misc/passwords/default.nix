@@ -12,7 +12,7 @@
   config = lib.mkIf config.password-store.enable {
     programs.password-store = {
       enable = true;
-      packages = pkgs.pass-wayland;
+      package = pkgs.pass-wayland;
     };
   };
 }

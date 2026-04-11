@@ -51,7 +51,7 @@
   lockscreen.enable = true;
 
   # launcher
-  wofi.enable = true;
+  rofi.enable = true;
 
   # bar
   waybar.enable = true;

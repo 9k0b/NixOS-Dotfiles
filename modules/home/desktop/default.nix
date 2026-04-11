@@ -5,7 +5,7 @@
     ./clipboard/default.nix
     ./wallpaper/default.nix
     ./lock/default.nix
-    ./wofi/default.nix
+    ./rofi/default.nix
     ./sunset/default.nix
     ./waybar/default.nix
   ];
