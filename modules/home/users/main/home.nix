@@ -65,6 +65,8 @@
   # zed editor
   zed-editor.enable = false;
 
+  # containers
+  jellyfinContainer.enable = true;
   home.packages = [
     pkgs.librewolf
   ];
