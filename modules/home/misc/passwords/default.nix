@@ -5,18 +5,16 @@
   ...
 }: {
   options = {
-    keepassxc.enable =
+    password-store.enable =
       lib.mkEnableOption "enable the keepassxc password manager";
   };
 
-  config = lib.mkIf config.keepassxc.enable {
-    programs.keepassxc = {
+  config = lib.mkIf config.password-store.enable {
+    programs.password-store = {
       enable = true;
+      packages = pass-wayland;
       settings = {
-        Browser.Enabled = true;
-        GUI = {
-          ApplicationTheme = "dark";
-          HidePasswords = true;
+
         };
       };
     };

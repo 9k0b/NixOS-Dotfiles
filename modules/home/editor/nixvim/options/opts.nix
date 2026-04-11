@@ -1,7 +1,4 @@
-{ pkgs, ... }:
-
-{
-
+{pkgs, ...}: {
   programs.nixvim = {
     opts = {
       updatetime = 100;
@@ -12,16 +9,16 @@
       mousemodel = "extend";
       swapfile = false;
       modeline = true;
-      modelines = true;
+      modelines = 100;
       undofile = true;
       incsearch = true;
-      inccomand = "split";
+      inccommand = "split";
       ignorecase = true;
       smartcase = true;
       cursorline = true;
-      cursorcolumn = true;
-      signcolumn = true;
-      colorcolumn = true;
+      cursorcolumn = false;
+      signcolumn = "yes";
+      colorcolumn = "100";
       laststatus = 3;
       fileencoding = "utf-8";
       termguicolors = true;
@@ -32,7 +29,7 @@
       shiftwidth = 2;
       expandtab = true;
       autoindent = true;
-      textwidth = true;
+      textwidth = 0;
     };
   };
 }

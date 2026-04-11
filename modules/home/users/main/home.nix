@@ -63,7 +63,7 @@
   sunset.enable = true;
 
   # zed editor
-  zed-editor.enable = true;
+  zed-editor.enable = false;
 
   home.packages = [
     pkgs.librewolf

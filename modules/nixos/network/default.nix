@@ -1,5 +1,5 @@
 {pkgs, ...}: {
   imports = [
-    ./nvidia/default.nix
+    ./ssh/default.nix
   ];
 }
