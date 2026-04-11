@@ -10,12 +10,24 @@
   };
 
   config = lib.mkIf config.password-store.enable {
-    programs.password-store = {
-      enable = true;
-      package = pkgs.pass-wayland;
+    programs = {
+      password-store = {
+        enable = true;
+        package = pkgs.pass-wayland;
+      };
+      gpg = {
+        enable = true;
+      };
     };
-    home.packages = with pkgs; [
-      gnupg
-    ];
+    services.gpg-agent = {
+      enable = true;
+      enableFishIntegration = true;
+      enableSshSupport = true;
+      pinentry = {
+        package = [
+          pkgs.pinentry-tty
+        ];
+      };
+    };
   };
 }
