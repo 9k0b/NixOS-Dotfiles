@@ -6,5 +6,6 @@
     ./terminal/default.nix
     ./editor/default.nix
     ./containers/default.nix
+    ./virtualisation/dedefault.nix
   ];
 }

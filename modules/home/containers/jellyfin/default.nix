@@ -10,7 +10,7 @@
   };
 
   config = lib.mkIf config.jellyfinContainer.enable {
-    services.podman.container = {
+    services.podman = {
       images = {
         jellyfin = import ./image.nix;
       };

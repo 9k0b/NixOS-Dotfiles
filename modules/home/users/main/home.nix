@@ -67,6 +67,10 @@
 
   # containers
   jellyfinContainer.enable = true;
+
+  # virtualisation / containersation
+  podman.enable = true;
+
   home.packages = [
     pkgs.librewolf
   ];
