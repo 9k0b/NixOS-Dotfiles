@@ -14,5 +14,8 @@
       enable = true;
       package = pkgs.pass-wayland;
     };
+    home.packages = with pkgs; [
+      gnupg
+    ];
   };
 }

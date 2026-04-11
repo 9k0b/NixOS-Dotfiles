@@ -1,6 +1,6 @@
 {
   "Mod4+Return" = "exec foot";
-  "Mod4+d" = "exec wofi --show drun";
+  "Mod4+d" = "exec rofi -show drun";
   "Mod4+f" = "exec thunar";
 
   "Mod4+w" = "kill";

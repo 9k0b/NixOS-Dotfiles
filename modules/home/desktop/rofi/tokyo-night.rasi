@@ -6,10 +6,10 @@
   dark : #24283b;
   red : #f7768e;
   red-alt : #ff9e64;
-  yellow : #9ece6a;
-  cream : #bb9af7;
-  highlight : underline bold #c0caf5;
-  font : "JetBrainsMono Nerd Font Propo ExtraBold 14";
+  purple : #bb9af7;
+  green : #c0caf5;
+  highlight : underline bold #9ece6a;
+  font : "JetBrainsMono Nerd Font Propo Bold 12";
 }
 
 configuration {
@@ -21,7 +21,7 @@ configuration {
 window {
   width : 25%;
   border : 3px;
-  border-color : @yellow;
+  border-color : @purple;
   background-color : @dark;
   location : center;
   orientaion : horizontal;
@@ -47,7 +47,7 @@ entry {
   padding : 3px 6px;
   text-color : @red;
   border : 3px;
-  border-color : @yellow;
+  border-color : @purple;
   background-color : @dark;
 }
 
@@ -57,7 +57,7 @@ listview {
   margin : 0 6px 6px 6px;
   padding : 6px 6px 0px 6px;
   border : 3px;
-  border-color : @yellow;
+  border-color : @purple;
   background-color : @dark;
 }
 
@@ -67,23 +67,23 @@ element {
 }
 
 element selected active {
-  text-color : @cream;
+  text-color : @green;
   background-color : @red-alt;
 }
 
 element-text {
   padding : 6px;
-  text-color : @cream;
+  text-color : @green;
   background-color : @dark;
 }
 
 element-text selected {
   text-color : @dark;
-  background-color : @yellow;
+  background-color : @purple;
 }
 
 element-text selected active {
-  text-color : @cream;
+  text-color : @green;
   background-color : @red-alt;
 }
 
@@ -95,11 +95,11 @@ element-icon{
 
 element-icon selected {
   text-color : @dark;
-  background-color : @yellow;
+  background-color : @green;
 }
 
 element-icon selected active {
-  text-color : @cream;
+  text-color : @green;
   background-color : @red-alt;
 }
 

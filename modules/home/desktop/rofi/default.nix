@@ -13,7 +13,13 @@
     programs.rofi = {
       enable = true;
       theme = ./tokyo-night.rasi;
-      location = "top-right";
+      pass = {
+        enable = true;
+        package = pkgs.rofi-pass-wayland;
+      };
+      plugins = with pkgs; [
+        rofi-emoji
+      ];
     };
   };
 }
