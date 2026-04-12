@@ -1,4 +1,4 @@
 {
-  image = "docker.io/vaultwarden/server";
+  image = "ghcr.io/dani-garcia/vaultwarden:latest";
   description = "Vaultwarden Container Image";
 }

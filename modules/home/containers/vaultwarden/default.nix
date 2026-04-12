@@ -9,7 +9,7 @@
       lib.mkEnableOption "enable a vaultwarden container";
   };
 
-  config = lib.mkIf config.jellyfinContainer.enable {
+  config = lib.mkIf config.vaultwardenContainer.enable {
     services.podman = {
       images = {
         vaultwarden = import ./image.nix;
