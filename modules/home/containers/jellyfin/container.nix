@@ -2,10 +2,10 @@
   description = "Jellyfin Container";
   image = "jellyfin";
   autoStart = true;
-  autoUpdate = "registry";
+  autoUpdate = "local";
   ports = [
-    "7359:7359/udp"
-    "8096:8096/tcp"
+    "0.0.0.0:7359:7359/udp"
+    "0.0.0.0:8096:8096/tcp"
   ];
   volumes = [
     "/home/main/jellyfin/config:/config"

@@ -1,6 +1,5 @@
 {
   user = "main";
-  image = "Jellyfin";
+  image = "jellyfin";
   description = "Jellyfin Volumes";
-  autoStart = true;
 }
