@@ -26,11 +26,13 @@
   # tailscale
   tailscale.enable = true;
 
+  traefik.enable = true;
+
   # ssh
   ssh.enable = false;
 
   # ai
-  ollama.enable = true;
+  ollama.enable = false;
 
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;

@@ -13,7 +13,6 @@
     services.ollama = {
       enable = true;
       package = pkgs.ollama-cuda;
-      acceleration = "cuda";
       port = 11111;
       openFirewall = true;
       host = "0.0.0.0";
