@@ -29,6 +29,9 @@
   # ssh
   ssh.enable = false;
 
+  # ai
+  ollama.enable = true;
+
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
@@ -49,7 +52,7 @@
   };
 
   system.stateVersion = "25.11"; # Did you read the comment?
-
+  nixpkgs.config.allowUnfree = true;
   services.greetd = {
     enable = true;
     settings = {
