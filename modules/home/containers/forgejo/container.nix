@@ -1,15 +1,13 @@
 {
-  description = "Jellyfin Container";
-  image = "jellyfin";
+  description = "Forgejo Container";
+  image = "forgejo";
   autoStart = true;
   autoUpdate = "local";
   ports = [
-    "0.0.0.0:7359:7359/udp"
-    "0.0.0.0:8096:8096/tcp"
+    "0.0.0.0:3000:3000"
+    "127.0.0.1:222:22"
   ];
   volumes = [
-    "/home/main/jellyfin/config:/config"
-    "/home/main/jellyfin/cache:/cache"
-    "/home/main/media:/media"
+    "/home/main/forgejo/data:/data"
   ];
 }

@@ -1,5 +1,5 @@
 {
   user = "main";
-  image = "jellyfin";
-  description = "Jellyfin Volumes";
+  image = "forgejo";
+  description = "Forgejo Volumes";
 }

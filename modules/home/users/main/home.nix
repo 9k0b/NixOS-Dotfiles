@@ -68,6 +68,7 @@
   # containers
   jellyfinContainer.enable = true;
   vaultwardenContainer.enable = true;
+  forgejoContainer.enable = true;
 
   # virtualisation / containersation
   podman.enable = true;

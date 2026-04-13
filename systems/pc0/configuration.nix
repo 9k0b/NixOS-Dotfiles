@@ -26,7 +26,7 @@
   # tailscale
   tailscale.enable = true;
 
-  traefik.enable = true;
+  traefik.enable = false;
 
   # ssh
   ssh.enable = false;

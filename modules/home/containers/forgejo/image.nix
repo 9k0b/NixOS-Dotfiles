@@ -1,4 +1,4 @@
 {
-  image = "docker.io/jellyfin/jellyfin:latest";
-  description = "Jellyfin Container Image";
+  image = "codeberg.org/forgejo/forgejo:14";
+  description = "Forgejo Container Image";
 }

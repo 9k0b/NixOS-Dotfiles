@@ -5,20 +5,20 @@
   ...
 }: {
   options = {
-    jellyfinContainer.enable =
-      lib.mkEnableOption "enable a jellyfin container";
+    forgejoContainer.enable =
+      lib.mkEnableOption "enable a vaultwarden container";
   };
 
-  config = lib.mkIf config.jellyfinContainer.enable {
+  config = lib.mkIf config.forgejoContainer.enable {
     services.podman = {
       images = {
-        jellyfin = import ./image.nix;
+        forgejo = import ./image.nix;
       };
       containers = {
-        jellyfin = import ./container.nix;
+        forgejo = import ./container.nix;
       };
       volumes = {
-        jellyfin = import ./volume.nix;
+        forgejo = import ./volume.nix;
       };
     };
   };
