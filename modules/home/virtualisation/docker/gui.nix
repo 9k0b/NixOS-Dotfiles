@@ -6,11 +6,11 @@
 }: {
   options = {
     dockerGui.enable =
-      lib.mkEnableOption "enable docker-desktop";
+      lib.mkEnableOption "enable lazydocker";
   };
 
   config = lib.mkIf config.dockerGui.enable {
-    home.packages = [
+    home.packages = with pkgs; [
       lazydocker
     ];
   };
