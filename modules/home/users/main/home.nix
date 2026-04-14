@@ -73,7 +73,10 @@
   # virtualisation / containersation
   podman.enable = true;
 
-  bootdev.enable = true;
+  dockerCli.enable = true;
+  dockerGui.enable = false;
+
+  bootdev.enable = false;
 
   home.packages = [
     pkgs.librewolf

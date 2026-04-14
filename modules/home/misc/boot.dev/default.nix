@@ -10,8 +10,10 @@
   };
 
   config = lib.mkIf config.bootdev.enable {
-    home.packages = [
-      pkgs.bootdev-cli
+    home.packages = with pkgs; [
+      bootdev-cli
+      go
+      gcc
     ];
   };
 }
