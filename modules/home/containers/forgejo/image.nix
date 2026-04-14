@@ -1,4 +1,4 @@
 {
-  image = "codeberg.org/forgejo/forgejo:14";
+  image = "ghcr.io/hidemaruowo/forgejo-runner-docker-image:latest";
   description = "Forgejo Container Image";
 }

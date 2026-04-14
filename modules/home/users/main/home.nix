@@ -66,12 +66,14 @@
   zed-editor.enable = false;
 
   # containers
-  jellyfinContainer.enable = true;
-  vaultwardenContainer.enable = true;
-  forgejoContainer.enable = true;
+  jellyfinContainer.enable = false;
+  vaultwardenContainer.enable = false;
+  forgejoContainer.enable = false;
 
   # virtualisation / containersation
   podman.enable = true;
+
+  bootdev.enable = true;
 
   home.packages = [
     pkgs.librewolf
